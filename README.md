@@ -31,6 +31,7 @@
 ### Тестирование
 <img width="1467" height="257" alt="image" src="https://github.com/user-attachments/assets/5487fe2b-044d-4a32-b051-7505f8e3119b" />
 <img width="1476" height="246" alt="image" src="https://github.com/user-attachments/assets/e3a0e988-406b-461e-9556-539c1abaae00" />
+<img width="1475" height="107" alt="image" src="https://github.com/user-attachments/assets/f6d4ebf8-ee7b-4016-91b9-95fb5b8a16fd" />
 
 ## Задание 3. Решить с использованием последовательности задачу на обработку файлов/каталогов
 ### Текст задачи
