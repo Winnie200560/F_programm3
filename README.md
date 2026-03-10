@@ -30,3 +30,7 @@
 ### Алгоритм решения
 
 ### Тестирование
+<img width="1472" height="219" alt="image" src="https://github.com/user-attachments/assets/5b4ae0cb-e556-4d00-acf0-299d3ee27c3b" />
+<img width="1474" height="206" alt="image" src="https://github.com/user-attachments/assets/7b9532c5-af47-4a0b-8d84-a7348234046f" />
+
+
