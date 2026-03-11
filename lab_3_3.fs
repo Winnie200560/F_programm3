@@ -18,11 +18,12 @@ let main args =
         for file in Directory.GetFiles(way) do
             let name = Path.GetFileName(file) // Извлечение имени файла
 
-            if name.StartsWith(string symbol) then
+            if name.[0] =  symbol then
                 printfn "%s" name
 
     else
         printfn "Каталог не найден"
 
     0
+
 
