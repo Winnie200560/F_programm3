@@ -15,7 +15,7 @@ let main args =
 
     if Directory.Exists(way) then
 
-        for file in Directory.EnumerateFiles(way) do
+        for file in Directory.GetFiles(way) do
             let name = Path.GetFileName(file) // Извлечение имени файла
 
             if name.StartsWith(string symbol) then
@@ -25,3 +25,4 @@ let main args =
         printfn "Каталог не найден"
 
     0
+
