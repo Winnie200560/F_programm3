@@ -5,7 +5,7 @@
 open System
 
 // Функция для вычисления суммы цифр числа
-let rec TotalDigit (n : int) : int =
+let rec totalDigit (n : int) : int =
     if n = 0 then
         0
     else
@@ -47,6 +47,7 @@ let main args =
         printfn "Ошибка! Введите числовое значение!"
         
     0
+
 
 
 
