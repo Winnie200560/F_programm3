@@ -1,29 +1,30 @@
-﻿// Задача №3
+// Задача №3
 // Вывести список файлов, имя которых начинается с заданного символа, в указанном каталоге.
 
 open System
 open System.IO
 
-[<EntryPoint>]
-let main args = 
-
+let inputDirectory () =
     printf "Введите путь к каталогу: "
-    let way = Console.ReadLine()
+    Console.ReadLine()
 
+let inputSymbol () =
     printf "Введите начальный символ файла: "
-    let symbol = Console.ReadLine().[0]
+    Console.ReadLine().[0]
 
+let processFiles way symbol =
     if Directory.Exists(way) then
-
-        for file in Directory.GetFiles(way) do
-            let name = Path.GetFileName(file) // Извлечение имени файла
-
-            if name.[0] =  symbol then
-                printfn "%s" name
-
+        Directory.EnumerateFiles(way)
+        |> Seq.map Path.GetFileName
+        |> Seq.filter (fun name -> name.StartsWith(string symbol))
+        |> Seq.iter (printfn "%s")
     else
         printfn "Каталог не найден"
 
+[<EntryPoint>]
+let main args = 
+    let way = inputDirectory()
+    let symbol = inputSymbol()
+    
+    processFiles way symbol
     0
-
-
