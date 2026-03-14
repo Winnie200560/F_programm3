@@ -1,15 +1,15 @@
-﻿// Лабораторная №3
+// Лабораторная №3
 // Задача 1
 // Получить список из сумм цифр натуральных чисел, содержащихся в исходном списке
 
 open System
 
 // Функция для вычисления суммы цифр числа
-let rec SummDigit (n : int) : int =
+let rec TotalDigit (n : int) : int =
     if n = 0 then
         0
     else
-        (n % 10) + SummDigit (n / 10)
+        (n % 10) + TotalDigit (n / 10)
 
 // Функция для формирования списка из чисел введных с клавиатуры
 let inputSeq (n : int) : seq<int> = 
@@ -41,12 +41,13 @@ let main args =
             printfn "Ошибка! Количество должно быть положительным числом!"
         else
             let numbers = inputSeq n
-            let result = Seq.map SummDigit numbers |> Seq.toList
+            let result = Seq.map TotalDigit numbers |> Seq.toList
             printfn "Суммы цифр: %A" result
     | (false, _) -> 
         printfn "Ошибка! Введите числовое значение!"
         
     0
+
 
 
 
