@@ -16,8 +16,6 @@
 <img width="1470" height="123" alt="image" src="https://github.com/user-attachments/assets/3ce2be7e-6324-4678-8f50-3093be913977" />
 <img width="1472" height="129" alt="image" src="https://github.com/user-attachments/assets/372c1569-91a4-4bd3-a347-bbd7beae53fc" />
 
-
-
 ## Задание 2. Seq.fold
 ### Текст задачи
 Найти сумму тех элементов списка, которые начинаются на заданную цифру.
