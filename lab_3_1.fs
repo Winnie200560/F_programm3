@@ -9,7 +9,7 @@ let rec totalDigit (n : int) : int =
     if n = 0 then
         0
     else
-        (n % 10) + TotalDigit (n / 10)
+        (n % 10) + totalDigit (n / 10)
 
 // Функция для формирования списка из чисел введных с клавиатуры
 let inputSeq (n : int) : seq<int> = 
@@ -41,8 +41,8 @@ let main args =
             printfn "Ошибка! Количество должно быть положительным числом!"
         else
             let numbers = inputSeq n
-            let result = Seq.map TotalDigit numbers |> Seq.toList
-            printfn "Суммы цифр: %A" result
+            let result = numbers |> Seq.map totalDigit |> Seq.iter (printfn "Сумма цифр: %d ")
+            printfn " "
     | (false, _) -> 
         printfn "Ошибка! Введите числовое значение!"
         
