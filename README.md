@@ -8,9 +8,9 @@
 1. Пользователь вводит количество чисел в исходной последоватьльности.
 2. Функция inputSeq формирует последовательность введенных пользователем чисел с помощью yield.
 3. Далее Seq.map применяет рекурсвную функцию totalDigit (вычисляет сумму цифр числа) к каждому элементу исходной последовательности.
-4. Результат - новая последовательность сумм цифр каждого числа.
+4. С помощью Seq.iter выводим сумму цифр для каждого числа.
 ### Тестирование
-<img width="1477" height="205" alt="image" src="https://github.com/user-attachments/assets/0b853e06-0755-4524-ba3f-7e21551a6e40" />
+<img width="1485" height="327" alt="image" src="https://github.com/user-attachments/assets/5ad6ec48-fe50-4c31-939f-ae1ac7f6b7e6" />
 <img width="1469" height="221" alt="image" src="https://github.com/user-attachments/assets/ee988484-c5b3-4477-a845-4a5e6b72cfb1" />
 <img width="1473" height="189" alt="image" src="https://github.com/user-attachments/assets/a25d477e-0334-4075-af72-b1a7aab2db71" />
 <img width="1470" height="123" alt="image" src="https://github.com/user-attachments/assets/3ce2be7e-6324-4678-8f50-3093be913977" />
