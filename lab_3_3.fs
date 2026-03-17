@@ -16,7 +16,7 @@ let processFiles way symbol =
     if Directory.Exists(way) then
         Directory.EnumerateFiles(way)
         |> Seq.map Path.GetFileName
-        |> Seq.filter (fun name -> name.StartsWith(string symbol))
+        |> Seq.filter (fun name -> name.[0] = symbol)
         |> Seq.iter (printfn "%s")
     else
         printfn "Каталог не найден"
