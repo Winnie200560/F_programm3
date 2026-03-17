@@ -11,8 +11,7 @@
 4. С помощью Seq.iter выводим сумму цифр для каждого числа.
 ### Тестирование
 <img width="1485" height="327" alt="image" src="https://github.com/user-attachments/assets/5ad6ec48-fe50-4c31-939f-ae1ac7f6b7e6" />
-<img width="1469" height="221" alt="image" src="https://github.com/user-attachments/assets/ee988484-c5b3-4477-a845-4a5e6b72cfb1" />
-<img width="1473" height="189" alt="image" src="https://github.com/user-attachments/assets/a25d477e-0334-4075-af72-b1a7aab2db71" />
+<img width="1474" height="236" alt="image" src="https://github.com/user-attachments/assets/a5cc2612-85d4-4488-97ef-56858944c64c" />
 <img width="1470" height="123" alt="image" src="https://github.com/user-attachments/assets/3ce2be7e-6324-4678-8f50-3093be913977" />
 <img width="1472" height="129" alt="image" src="https://github.com/user-attachments/assets/372c1569-91a4-4bd3-a347-bbd7beae53fc" />
 
